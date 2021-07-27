@@ -96,7 +96,9 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [
+              "nodes_modules/apexcharts/dist/apexcharts.min.js"
+            ]
           }
         },
         "lint": {
