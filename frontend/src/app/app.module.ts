@@ -5,16 +5,19 @@ import { ChartComponent, NgApexchartsModule } from 'ng-apexcharts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    NgApexchartsModule
+    NgApexchartsModule,
+    
   ],
   providers: [ChartComponent],
   bootstrap: [AppComponent]
